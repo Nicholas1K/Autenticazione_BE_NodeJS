@@ -26,3 +26,7 @@ const salt = await bcrypt.genSalt();
 const hashedPassword = await bcrypt.hash(password,salt);
 
 servono per occultare la password nel database mettendo un hash che crittografa la password da noi messa
+
+#### Mlab
+
+il server che uso per fare girare l'applicazione si chiama Mlab, ed è un server mongodb situato online, si possono usare massomo 500MB e il server sulla quale gira questa applicazione si chiama TEST
