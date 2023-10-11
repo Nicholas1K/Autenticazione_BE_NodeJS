@@ -10,6 +10,7 @@ const { error } = require('console');
 const PORT = process.env.PORT;
 const app = express();
 
+//collegamento alla home page, qui 
 app.get('/',(req,res)=>{
     try{
         res.send('<h1>Homepage</h1>')
